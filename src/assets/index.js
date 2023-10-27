@@ -7,6 +7,12 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+// service icons
+
+import ui_ux from "./design.png"
+import web_dev from "./web-development.png"
+import mobile_app from "./mobile app.png"
+
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -45,7 +51,9 @@ export {
   menu,
   close,
   css,
-
+  ui_ux,
+  mobile_app,
+  web_dev,
   figma,
   git,
   html,
@@ -57,7 +65,7 @@ export {
   tailwind,
   typescript,
   threejs,
- 
+
   crm,
   blogweb,
   quickserve

@@ -40,7 +40,7 @@ const Contact = () => {
         recipient: form.email,
         message: form.message
       });
-      alert("email successfully sent check inbox");
+      alert("We will get you back soon!");
     } catch (error) {
       console.log(error);
     } finally {

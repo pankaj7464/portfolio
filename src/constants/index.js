@@ -1,8 +1,5 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+ 
   javascript,
   typescript,
   html,
@@ -22,6 +19,9 @@ import {
   quickserve,
   blogweb,
   crm,
+  ui_ux,
+  mobile_app,
+  web_dev,
 } from "../assets";
 
 export const navLinks = [
@@ -41,22 +41,22 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Web development",
+    icon: web_dev, // Replace with the appropriate icon class
+    description: "Crafting responsive websites with cutting-edge technology for a dynamic online presence and seamless user experiences."
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Mobile App development",
+    icon: mobile_app, // Replace with the appropriate icon class
+    description: "Building feature-rich, user-friendly mobile apps across platforms to engage your audience and drive business growth."
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Writter",
-    icon: creator,
-  },
+    title: "UI/UX Design",
+    icon: ui_ux, // Replace with the appropriate icon class
+    description: "Creating captivating, intuitive interfaces that enhance user satisfaction, boost usability, and elevate your brand's visual identity."
+  }
 ];
+
 
 const technologies = [
   {

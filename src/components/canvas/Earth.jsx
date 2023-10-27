@@ -12,7 +12,7 @@ const Earth = () => {
   );
 };
 
-const EarthCanvas = () => {
+const  EarthCanvas = () => {
   return (
     <Canvas
       shadows

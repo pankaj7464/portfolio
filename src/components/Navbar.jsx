@@ -40,9 +40,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
+          <img src="logo.png" alt="" className="h-8" />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Pankaj Kumar &nbsp;
-            <span className='sm:block hidden'> | Full stack developer</span>
+            <span className='sm:block hidden'>  Full stack developer</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
